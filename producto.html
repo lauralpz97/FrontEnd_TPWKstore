@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPWK Store</title>
+    <link  rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="css/style.css"
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="imagenes/tpwk.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Sudadera Harry</h1>
+        <div class="sueter">
+            <img class="sueter__imagen" src="imagenes/1.jpg" alt="Imagen del Producto">
+
+            <div class="sueter__contenido">
+                <p>Morbi ac condimentum tellus. Maecenas at nibh egestas, dapibus tellus sed, dictum libero. 
+                    Duis eu porta ligula. Fusce vel vulputate mi. Fusce sed tellus tristique est posuere sollicitudin ut ut mauris. 
+                    Aliquam rhoncus ipsum vitae justo efficitur, at molestie quam iaculis. Aenean non pretium arcu. 
+                    Nunc condimentum sollicitudin erat, at varius lectus faucibus eu.</p>
+
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected>-- Seleccionar Talla --</option>
+                            <option>Chica</option>
+                            <option>Mediana</option>
+                            <option>Grande</option>
+                        </select>
+                        <input class="formulario__campo" tyle="number" placeholder="Cantidad" min="1">
+                        <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                    </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Treat People With Kindness STORE 2021</p>
+    </footer>
+</body>
+</html>
